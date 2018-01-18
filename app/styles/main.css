@@ -1,0 +1,136 @@
+body {
+  width: 100%;
+  background: #337700 url(https://vignette.wikia.nocookie.net/moshimonsters/images/5/50/Wiki-background/revision/latest?cb=20171223165911) top left repeat; }
+
+li {
+  list-style: none; }
+
+.wrapper {
+  overflow: hidden;
+  width: 950px;
+  margin: 0 auto;
+  padding: 20px 0; }
+
+header .title h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 0;
+  color: #a51ca3; }
+
+main .posts-list {
+  background: #52add3;
+  padding: 10px;
+  border-radius: 110px; }
+  main .posts-list .pre-loader {
+    display: flex;
+    justify-content: center; }
+  main .posts-list .list {
+    display: block; }
+    main .posts-list .list h1 {
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      margin: 0;
+      color: #a51ca3; }
+    main .posts-list .list .post {
+      padding: 20px 0;
+      border-bottom: 1px solid #dff7ff; }
+      main .posts-list .list .post .post-blog {
+        padding: 20px 0; }
+        main .posts-list .list .post .post-blog .title-of-post {
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: 0.5px;
+          padding: 0 0 20px 0;
+          margin: 0;
+          color: #ff0000; }
+        main .posts-list .list .post .post-blog .body-of-post {
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.5px;
+          margin: 0;
+          color: #000000; }
+      main .posts-list .list .post .user {
+        background-color: #e5f4f8;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 50px;
+        width: 150px; }
+        main .posts-list .list .post .user:hover {
+          background-color: gray; }
+      main .posts-list .list .post .comments-button {
+        background-color: #e5f4f8;
+        border-radius: 6px;
+        height: 50px;
+        width: 150px;
+        cursor: pointer; }
+        main .posts-list .list .post .comments-button:hover {
+          background-color: gray; }
+      main .posts-list .list .post .comments {
+        display: block; }
+        main .posts-list .list .post .comments .comment-block {
+          padding: 20px 0; }
+          main .posts-list .list .post .comments .comment-block .title-of-comment {
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+            margin: 0 0 20px 0;
+            color: #ff1515; }
+          main .posts-list .list .post .comments .comment-block .body-of-comment {
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.5px;
+            margin: 0;
+            color: #000000; }
+      main .posts-list .list .post .user-info {
+        padding: 20px 0;
+        display: none; }
+        main .posts-list .list .post .user-info .user-name {
+          font-size: 18px;
+          line-height: 20px;
+          letter-spacing: 0.5px;
+          margin: 0 0 20px 0;
+          color: #ff1515; }
+        main .posts-list .list .post .user-info .user-contacts {
+          font-size: 14px;
+          line-height: 16px;
+          letter-spacing: 0.5px;
+          color: #000000; }
+          main .posts-list .list .post .user-info .user-contacts li {
+            padding: 10px 0; }
+  main .posts-list nav {
+    display: flex;
+    justify-content: center; }
+    main .posts-list nav .pagination-top, main .posts-list nav .pagination-bottom {
+      display: inline;
+      padding: 0; }
+      main .posts-list nav .pagination-top li, main .posts-list nav .pagination-bottom li {
+        display: inline; }
+        main .posts-list nav .pagination-top li button, main .posts-list nav .pagination-bottom li button {
+          border-radius: 4px;
+          background-color: #e5f4f8;
+          cursor: pointer;
+          border: 1px solid gray; }
+          main .posts-list nav .pagination-top li button:hover, main .posts-list nav .pagination-bottom li button:hover {
+            background-color: gray; }
+  main .posts-list .user-list-info h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0;
+    color: #a51ca3; }
+  main .posts-list .user-list-info .user-contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  main .posts-list .user-list-info .close-button {
+    float: right;
+    color: red;
+    background-color: black;
+    cursor: pointer; }
+  main .posts-list .user-list-info .user-name {
+    color: #910000;
+    float: left; }
+
+/*# sourceMappingURL=main.css.map */

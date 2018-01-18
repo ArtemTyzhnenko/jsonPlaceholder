@@ -1,0 +1,181 @@
+body {
+  width: 100%;
+  background: #337700 url(https://vignette.wikia.nocookie.net/moshimonsters/images/5/50/Wiki-background/revision/latest?cb=20171223165911) top left repeat;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  overflow: hidden;
+  width: 950px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  .title {
+    h1 {
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      margin: 0;
+      color: #a51ca3;
+    }
+  }
+}
+
+main {
+  .posts-list{
+    background: #52add3;
+    padding: 10px;
+    border-radius: 110px;
+    .pre-loader{
+      display: flex;
+      justify-content: center;
+    }
+  .list {
+    display: block;
+    h1{
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      margin: 0;
+      color: #a51ca3;
+    }
+    .post {
+      padding: 20px 0;
+      border-bottom: 1px solid #dff7ff;
+      .post-blog {
+        padding: 20px 0;
+        .title-of-post {
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: 0.5px;
+          padding: 0 0 20px 0;
+          margin: 0;
+          color: #ff0000;
+        }
+        .body-of-post {
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.5px;
+          margin: 0;
+          color: #000000;
+        }
+      }
+      .user{
+        background-color: #e5f4f8;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 50px;
+        width: 150px;
+        &:hover{
+          background-color: gray;
+        }
+      }
+      .comments-button{
+        background-color: #e5f4f8;
+        border-radius: 6px;
+        height: 50px;
+        width: 150px;
+        cursor: pointer;
+        &:hover{
+          background-color: gray;
+        }
+      }
+      .comments {
+        display: block;
+        .comment-block {
+          padding: 20px 0;
+          .title-of-comment {
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+            margin: 0 0 20px 0;
+            color: #ff1515;
+          }
+          .body-of-comment {
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.5px;
+            margin: 0;
+            color: #000000;
+          }
+        }
+      }
+      .user-info {
+        padding: 20px 0;
+        display: none;
+
+        .user-name {
+          font-size: 18px;
+          line-height: 20px;
+          letter-spacing: 0.5px;
+          margin: 0 0 20px 0;
+          color: #ff1515;
+        }
+        .user-contacts {
+          font-size: 14px;
+          line-height: 16px;
+          letter-spacing: 0.5px;
+          color: #000000;
+          li{
+            padding: 10px 0;
+          }
+        }
+      }
+    }
+  }
+    nav {
+      display: flex;
+      justify-content: center;
+      .pagination-top, .pagination-bottom {
+        display: inline;
+        padding: 0;
+        li {
+          display: inline;
+
+          button {
+            border-radius: 4px;
+            background-color: #e5f4f8;
+            cursor: pointer;
+            border: 1px solid gray;
+            &:hover {
+              background-color: gray;
+            }
+          }
+        }
+      }
+    }
+    .user-list-info{
+      h1{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        margin: 0;
+        color: #a51ca3;
+      }
+      .user-contacts{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .close-button{
+        float: right;
+        color: red;
+        background-color: black;
+        cursor: pointer;
+      }
+      .user-name{
+        color: #910000;
+        float: left;
+      }
+    }
+  }
+}
+
+footer{
+
+}
